@@ -5,3 +5,5 @@ ive added the provider package and wrapped my app with ChangeNotifierProvider. t
 I cresated the guild hall roster to display availbale adventures. the recruit buttons adds an adventure to the party using provider.
 
 having the quest party summery to show recruited adventuerers, the party count, and total gold cost. I used provider to update the summery when adventurers are added or removed.
+
+After testing my app, everything works. I checked the party and total cost update. Provider helped keep the screen updated automatically.
