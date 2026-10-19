@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'party_model.dart';
+import 'guild_hall_roster.dart';
 
 void main() {
   runApp(
@@ -22,9 +23,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Adventuring Guild'),
         ),
-        body: const Center(
-          child: Text('Welcome to the Adventuring Guild!'),
-        ),
+        body: GuildHallRoster(),
       ),
     );
   }
