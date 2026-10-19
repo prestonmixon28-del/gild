@@ -1,0 +1,1 @@
+I created the classes to store heroes and track the party. The notifyListeners() method tells the app when the party chnages so the UI can update.
